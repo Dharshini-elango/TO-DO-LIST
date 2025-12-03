@@ -1,16 +1,42 @@
-# React + Vite
+React Drag & Drop Task Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management app built with React.
+You can add tasks, edit them, delete them, mark them as complete, and reorder them using drag and drop.
+The app also marks tasks as missed automatically if their due time has passed.
 
-Currently, two official plugins are available:
+Features:
+Add new tasks
+Edit and delete tasks
+Mark tasks as completed
+Auto-detect missed tasks
+Drag and drop to reorder
+Saves tasks in localStorage
+Simple and clean UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How to Use:
+Type a task in the “Add a new task…” box → click Add Task
+Click Edit to modify a task
+Click Delete to remove a task
+Drag any task to change its order
 
-## React Compiler
+Tasks will:
+Show ✓ when completed
+Show MISSED when the deadline passes
+Running the Project
+Install dependencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the app
+
+npm start
+
+
+Open in browser:
+http://localhost:5173
+Tech Used
+React.js
+JavaScript Drag & Drop API
+LocalStorage
+
